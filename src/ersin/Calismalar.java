@@ -6,6 +6,7 @@ public class Calismalar {
         String name = "Michael";
         String surname = "Kayhan";
         int age = 21;
+        String cats="Gandalf";
 
     }
 }
