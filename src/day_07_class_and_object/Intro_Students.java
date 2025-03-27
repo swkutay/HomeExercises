@@ -1,4 +1,4 @@
-package day_05_class_and_object;
+package day_07_class_and_object;
 
 public class Intro_Students {
 
