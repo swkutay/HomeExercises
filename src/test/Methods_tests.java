@@ -8,10 +8,12 @@ public class Methods_tests {
     public static void main(String[] args) {
 
         int frequencyOfChar;
+        int days = 5;
+        String result;
 
         Static_methods.evenNumbers();
 
-        Static_methods.toplama(5,6);
+        Static_methods.toplama(5, 6);
 
         Static_methods.toplama(6.5, 7.4);
 
@@ -23,7 +25,11 @@ public class Methods_tests {
 
         System.out.println((Return_type_methods.grade(78)));
 
-        frequencyOfChar = Return_type_methods.frequency("AAABBBCCDC",'A');
+        frequencyOfChar = Return_type_methods.frequency("AAABBBCCDC", 'A');
         System.out.println("frequencyOfChar = " + frequencyOfChar);
+
+        result = Return_type_methods.days(days);
+        System.out.println(result);
+
     }
 }
