@@ -1,4 +1,4 @@
-package day_07_class_and_object;
+package day_08_class_and_object;
 
 public class Cars_objects {
     public static void main(String[] args) {
