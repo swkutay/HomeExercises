@@ -1,5 +1,6 @@
 package test;
 
+import day_09_constructor.Animal_with_constractor;
 import day_09_constructor.Constructor_intro;
 import day_09_constructor.Constructor_intro_2;
 import day_09_constructor.Private_constructor;
@@ -52,6 +53,17 @@ public class Constructor_tests {
         student1.setAge(-100);
         System.out.println(student1.getAge());
 
+
+        System.out.println();
+        System.out.println("-----------------------------------------------------------");
+        System.out.println();
+
+
+        Animal_with_constractor animal1 = new Animal_with_constractor("Gandalf","Cat",'M',3);
+
+        System.out.println(animal1);
+
+        animal1.showInfo();
 
     }
 }
